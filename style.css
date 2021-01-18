@@ -4,13 +4,14 @@
 }
 
 body {
-
     font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
     margin: 0;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .left {
@@ -39,7 +40,7 @@ body {
 }
 
 .right {
-  background-color: #270B49;
+  background-color: #5374C9;
   color: white;
   width: 50%;
   height: 100vh;
@@ -51,4 +52,28 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 0 60px;
+}
+
+.talk-to-me {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.right p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.right h1 {
+  margin-bottom: 10px;
+}
+
+.right ul {
+  padding-left: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  align-self: center;
 }
