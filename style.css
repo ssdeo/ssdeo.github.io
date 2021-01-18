@@ -1,3 +1,8 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
 body {
 
     font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -14,7 +19,6 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: row;
-  padding: 0 60px;
 }
 
 .charlie {
@@ -22,8 +26,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: center; 
+    padding: 0 60px;
 }
 
 .bot {
@@ -31,7 +35,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .right {
