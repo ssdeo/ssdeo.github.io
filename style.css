@@ -17,33 +17,33 @@ body {
 .left {
   background: white;
   width: 50%;
-  height: 100vh;
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .charlie {
-    width: 50%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    padding: 0 60px;
+    padding: 0 30px;
 }
 
 .bot {
-    width: 50%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    align-items: center;
 }
 
 .right {
   background-color: #5374C9;
   color: white;
   width: 50%;
-  height: 100vh;
+  flex-grow: 1;
+  min-height: 100vh;
 }
 
 .right > .container {
